@@ -1,0 +1,192 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding:0;
+  background-color:#FDF2E9;
+  font-family:Sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color:#5C4033;
+  padding: 20px;
+  text-align: center;
+  background-image:"S.jpg";
+  font-style:italic;  
+}
+.header h1{
+	color:white;
+    margin-right:100px;	
+}
+.header p{
+	color:white;
+	margin-right:100px;
+}
+
+/* Style the navgation bar */
+.topnav {
+  overflow: hidden;
+  background-color:#EDBB99;  
+  margin: 0 auto;
+  text-align: center;
+   position:center;
+   float:center;
+}
+.topnav a {
+  float: center;
+  display:inline;
+  color: #641E16;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position:center; 
+}
+.topnav a:hover {
+  background-color:#5C4033;
+  color: white;
+  text-align: center;
+}
+/* style the index page*/
+.columnhome p,ul{
+	color:#641E16;
+	font-size:16px;
+}
+
+.columnhome h2{
+	color:#BA4A00;
+}
+.columnhome {
+  float: left;
+  width: 33.33%;
+  padding: 40px;
+  margin:0
+}
+.rowhome:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columnmenu h2{
+	color:#BA4A00;
+}
+/* style the Menu page(cold and hot drinks)*/
+.columnmenu {
+  float: left;
+  padding: 10px 0; 
+  max-width: 280px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+  color:#641E16;
+}
+div + div {
+  margin-left: 30px;
+}
+
+.rowmenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*style logo for all pages*/
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+/*style Menu list*/
+.dropdown {
+  float: center;
+  overflow: hidden;
+  display:inline;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #5C4033;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #5C4033;
+  color:white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #EDBB99;
+  min-width: 160px;
+  z-index: 1;
+  right: auto;
+  left: 50%;
+}
+
+.dropdown-content a {
+  float: center;
+  color: #5C4033;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color:#5C4033;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+/*style About page*/
+Section{
+width: 87.33%;
+margin-left:50px;
+}
+
+section h1{
+	margin-left:70px;
+	color:#BA4A00;	
+}
+section h2{
+	margin-left:85px;
+	color:#CA6F1E;
+	font-size:16px;
+}
+
+section h3{
+	margin-left:70px;
+	color:#641E16;
+}
+
+section p{
+	margin-left:85px;
+	color:#641E16;
+	font-size:15x;
+}
+Section img{
+	margin-left:50px;
+}
+/*style footer for all pages*/	
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color:#5C4033;
+  color: white;
+}
+
+footer a{
+	color:white;
+}
