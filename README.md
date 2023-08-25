@@ -18,7 +18,7 @@ This repository contains the code for a coffee shop website that I built as a pr
 
 - Navigation bar with links to home, menu, and order pages
 - Hero section on home page with the shop logo and description
-- Menu page listing hot drinks and cold 
+- Menu page listing hot drinks and cold with prices
 - Basic footer with contact and location info
 
 ## Design Process
